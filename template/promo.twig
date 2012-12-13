@@ -1,0 +1,47 @@
+<div class="headform">
+    <div class="wrapper-content">
+        <div class="wrapper-top">
+            <div class="wrapper-main">
+                <div class="shadow"></div>
+                <div class="content">
+                    <div class="slide"><img src="/images/garant.jpg"
+                                            alt="slider1" width="200" height="246"/></div>
+                    <div class="slide"><img src="/images/discont.jpg"
+                                            alt="slider1" width="200" height="246"/>
+
+                        <div class="time_limit_counter">
+                            до конца акции осталось:
+                            <div id="countdown_dashboard_60" class="time_counter">
+
+                                <div class="dash days_dash">
+                                    <span class="time_bg"><div class="digit">0</div><div class="digit">0</div></span>
+                                </div>
+                                <div class="dash hours_dash">
+                                    <span class="time_bg middle"><div class="digit">0</div><div class="digit">0
+                                    </div></span>
+                                </div>
+                                <div class="dash minutes_dash">
+                                    <span class="time_bg middle2"><div class="digit">0</div><div class="digit">0
+                                    </div></span>
+                                </div>
+                                <div class="dash seconds_dash">
+                                    <span class="time_bg seconds"><div class="digit">0</div><div class="digit">0
+                                    </div></span>
+                                </div>
+                                <br>
+
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="slide"><img src="/images/car.jpg"
+                                            alt="slider1" width="200" height="246"/></div>
+
+                    {% import "macro_form.twig" as form %}
+                    {{ form.create('999') }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,38 @@
+{% macro create(cat) %}
+    <ul class="list-type-first services">
+        {% for product in products %}
+            {% if product.cat == cat %}
+                <li>
+                    <figure><span><a class="gallery" rel="bouqet_{{ product.id }}" title="{{ product.name }}"
+                                     href="{{ product.foto1 }}"> <img src="{{ product.foto1 }}"
+                                                                      alt="{{ product.name }}"
+                                                                      width="231" height="231"/></a></span>
+                        <a class="gallery" rel="bouqet_{{ product.id }}" title="{{ product.name }}"
+                           href="{{ product.foto2 }}"></a>
+                        <a class="gallery" rel="bouqet_{{ product.id }}" title="{{ product.name }}"
+                           href="{{ product.foto3 }}"></a>
+                        <figcaption class="text-info">{{ product.name }}<br/>{{ product.price }} грн</figcaption>
+
+                    </figure>
+                    <a href="#" class="button medium green">Заказать</a>
+
+
+                    <div class="modal modal-services">
+                        <div class="modal-bg"></div>
+                        <div class="modal-body">
+                            <div class="overlay-inner">
+                                <div class="modal-main">
+                                    <p class="h1 size-type">{{ product.name }}</p>
+                                </div>
+
+                                {% import "macro_form.twig" as form %}
+                                {{ form.create(product.id, product.name) }}
+                            </div>
+                            <span class="modal-close"></span></div>
+                    </div>
+                </li>
+            {% endif %}
+        {% endfor %}
+
+    </ul>
+{% endmacro %}

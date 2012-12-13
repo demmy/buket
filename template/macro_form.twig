@@ -1,0 +1,37 @@
+{% macro create(index,name) %}
+    <div class="on-line-zakaz">
+        <p class="h1">Онлайн-заявка</p>
+
+        <p>Узнайте подробности прямо сейчас, для этого заполните заявку и наш специалист свяжется с
+            Вами.</p>
+
+        <form action="#" id="form_{{ index }}">
+            <input type="hidden" class="js_bq_name{{ index }}" value="{{ name }}"/>
+            <div class="rslt"></div>
+            <p>
+                <label>ФИО:</label>
+                <input class="js_name{{ index }} type=" text"/>
+            </p>
+
+            <p style="display: none !important;">
+                <label>Имя:</label>
+                <input type="text" class="js_lastname{{ index }}"/>
+            </p>
+
+            <p>
+                <label>Телефон:</label>
+                <input class="js_phone{{ index }}" type="text"/>
+            </p>
+
+            <p>
+                <label>E-mail:</label>
+                <input class="js_email{{ index }}" type="text"/>
+            </p>
+
+            <p class="btn">
+                <input type="button" onclick="formValid({{ index }},'Y')" value=""
+                       onmouseup="javascript:_gaq.push(['_trackPageview','/zakaz-knopka']);"/>
+            </p>
+        </form>
+    </div>
+{% endmacro %}

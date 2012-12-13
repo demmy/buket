@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    {# TODO метатеги#}
+    <meta charset="utf-8"/>
+    <meta content="Заголовок страницы">
+    <meta content="Описание содержимого">
+    <meta content="images/logo.jpg">
+    <meta name="keywords" content=""/>
+
+    <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen, projection"/>
+    <link rel="stylesheet" href="/css/jquery.fancybox.css" type="text/css" media="screen, projection"/>
+    {# TODO favicon#}
+    <link href="/favicon.png" rel="icon" type="image/x-icon"/>
+
+    <script src="/js/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/js/slides.min.jquery.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/js/fancybox/jquery.easing.1.3.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/js/fancybox/jquery.fancybox-1.2.1.pack.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/js/init.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/js/timer.js" type="text/javascript" charset="utf-8"></script>
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>eFlowers5.com - заказ букетов для корпоративных клиентов</title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+
+    <!--[if IE 7]>
+    <link href="/css/ie-old.css" rel="stylesheet" type="text/css"/>
+    <![endif]-->
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+</head>
+<body>
+
+<div class="wrapper">
+    <!-- #header-->
+    {% include 'header.twig' %}
+    <!-- #/header-->
+
+    <!-- #promo-->
+    {% include 'promo.twig' %}
+    <!-- #promo-->
+
+    <div class="wrapper-content">
+        <div class="wrapper-top">
+            <div class="block-decor-first"></div>
+            <div class="block-decor-second"></div>
+            {% include 'content.twig' %}
+
+        </div>
+    </div>
+</div>
+<!-- #wrapper -->
+{% include 'footer.twig' %}
+<!-- #footer -->
+
+<div class="wait js_wait">
+    <img src="images/wait.gif">
+    Обработка
+</div>
+<!--[if lt IE 7]>
+<div style='height: 59px; padding:0 0 0 15px; position: absolute; top: 0; z-index: 9999;'><a
+        href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img
+        src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0016_russian.jpg" border="0"
+        height="42" width="820"
+        alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/></a>
+</div> <![endif]-->
+</body>
+</html>

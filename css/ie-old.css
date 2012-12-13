@@ -1,0 +1,38 @@
+.list-type-num {
+    z-index: expression( runtimeStyle.zIndex = 1, function(node) {
+ var list = node.childNodes, i = list.length;
+ while(i--) {
+ if(list[i].nodeType == 1) {
+ list[i].insertAdjacentHTML('afterBegin', '<div>'+(i+1)+'</div>');
+}
+}
+}
+(this));
+)
+}
+
+.list-type-num div {
+    font: 20px 'MyrProRegular';;
+    position: absolute;
+    left: 2px;
+    top: -2px;
+    width: 33px;
+    height: 34px;
+    line-height: 34px;
+    background: url(../images/circle.png) no-repeat;
+    color: #fff;
+    text-align: center;
+}
+
+.garant {
+    padding-top: 30px;
+}
+
+.advantage figcaption {
+    float: left;
+}
+
+.advantage p {
+    padding-left: 0;
+    margin-bottom: 20px;
+}
