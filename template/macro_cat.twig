@@ -3,13 +3,13 @@
         {% for product in products %}
             {% if product.cat == cat %}
                 <li>
-                    <figure><span><a class="gallery" rel="bouqet_{{ product.id }}" title="{{ product.name }}"
+                    <figure><span><a class="gallery" rel="bouqet_{{ product.id }}" title="{{ product.name }} - {{ product.price }} грн"
                                      href="{{ product.foto1 }}"> <img src="{{ product.foto1 }}"
                                                                       alt="{{ product.name }}"
                                                                       width="231" height="231"/></a></span>
-                        <a class="gallery" rel="bouqet_{{ product.id }}" title="{{ product.name }}"
+                        <a class="gallery" rel="bouqet_{{ product.id }}" title="{{ product.name }} - {{ product.price }} грн"
                            href="{{ product.foto2 }}"></a>
-                        <a class="gallery" rel="bouqet_{{ product.id }}" title="{{ product.name }}"
+                        <a class="gallery" rel="bouqet_{{ product.id }}" title="{{ product.name }} - {{ product.price }} грн"
                            href="{{ product.foto3 }}"></a>
                         <figcaption class="text-info">{{ product.name }}<br/>{{ product.price }} грн</figcaption>
 

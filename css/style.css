@@ -76,8 +76,6 @@ input {
     width: 100%;
     margin: 0 auto;
     min-height: 100%;
-    height: auto !important;
-    height: 100%;
 
 }
 
@@ -99,7 +97,7 @@ input {
     background: url(../images/cont-main.png) top center repeat-y;
 }
 
-.center{
+.center {
     text-align: center;
 }
 
@@ -177,7 +175,7 @@ input {
 }
 
 .number {
-    margin-bottom: 0px;
+    margin-bottom: 0;
     text-decoration: none;
     color: #383838;
     font-size: 18px;
@@ -236,8 +234,7 @@ input {
 .slide {
     float: left;
     margin: 10px 7px;
-    border: 0px;
-    border-style: dotted;
+    border: 0 dotted;
 }
 
 /*
@@ -263,8 +260,7 @@ input {
     width: 15px;
     height: 0;
     padding-top: 14px;
-    background-image: url(../images/pag.png);
-    background-position: 0 0;
+    background: url(../images/pag.png) 0 0;
     float: left;
     overflow: hidden;
 }
@@ -322,7 +318,7 @@ input {
     height: 59px;
     float: right;
     padding: 0;
-    margin-right: 60px;
+    margin-left: 80px;
     line-height: 40px;
     border: none;
     background: url(../images/slider/btn.png) 0 0 no-repeat;
@@ -397,7 +393,7 @@ input {
 
 .garant li {
     width: 240px;
-    margin-right: 0px;
+    margin-right: 0;
 }
 
 .garant img {
@@ -592,7 +588,7 @@ input {
     z-index: 1002;
     width: 956px;
     padding: 0;
-    background: #fff url(../images/m-bg.jpg) top left no-repeat;
+    background: #fff;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     border-radius: 15px;
@@ -651,7 +647,7 @@ input {
     font: 20px 'MyrProRegular';
     position: absolute;
     left: 2px;
-    top: 0px;
+    top: 0;
     width: 33px;
     height: 34px;
     line-height: 34px;
@@ -728,7 +724,6 @@ input {
 }
 
 .col.first {
-    background: url(../images/col-bg.png) top right no-repeat;
     margin: 0 25px 0 0;
 }
 
@@ -739,7 +734,6 @@ input {
 .modal-services .on-line-zakaz .btn.send input {
     width: 207px;
     height: 55px;
-    background: url(../images/btn-2f.png) no-repeat;
     margin-right: 0;
 }
 
@@ -799,8 +793,7 @@ input {
     text-align: center;
     padding-top: 3px;
     font: 18px bold Arial;
-    background-image: url(/images/counter_image.png);
-    background-repeat: repeat-x;
+    background: url(/images/counter_image.png) repeat-x;
     height: 26px;
     padding: 3px 6px 0 5px;
     display: inline-block;
@@ -831,7 +824,7 @@ input {
 .dash_title {
     position: absolute;
     display: block;
-    bottom: 0px;
+    bottom: 0;
     right: 6px;
 }
 
@@ -1123,4 +1116,10 @@ blockquote p {
     background: -webkit-gradient(linear, left top, left bottom, from(#f171ab), to(#feb1d3));
     background: -moz-linear-gradient(top, #f171ab, #feb1d3);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#f171ab', endColorstr = '#feb1d3');
+}
+
+#vk_groups {
+    float: right;
+    margin-left: 180px;
+    margin-right: 40px;
 }
