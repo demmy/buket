@@ -1,6 +1,21 @@
-id;category;name;price;img1;img2;img3
-1;1;Букет от Elen;от 132;/images/products/bledi.jpg;/images/products/bledi.jpg;/images/products/bledi.jpg
-2;1;Изысканный комплимент;456;/images/products/mary.jpg;/images/products/mary.jpg;/images/products/mary.jpg
-3;2;Mary Ann;784;/images/products/tango.jpg;/images/products/tango.jpg;/images/products/tango.jpg
-4;2;Солнечный день;333;/images/products/venera.jpg;/images/products/venera.jpg;/images/products/venera.jpg
-5;3;Вершина успеха;231;/images/products/vershina.jpg;/images/products/vershina.jpg;/images/products/vershina.jpg
+"id";"category";"name";"price";"img1";"img2";"img3"
+1;1;"Утро Прованса";490;"/images/products/11.jpg";"/images/products/12.jpg";"/images/products/13.jpg"
+2;1;"Сладкий поцелуй";480;"/images/products/21.jpg";"/images/products/22.jpg";"/images/products/23.jpg"
+3;1;"Розовая мечта";380;"/images/products/31.jpg";"/images/products/32.jpg";"/images/products/33.jpg"
+4;1;"Marry Anne";270;"/images/products/41.jpg";"/images/products/42.jpg";"/images/products/43.jpg"
+5;1;"Изысканный комплимент";200;"/images/products/51.jpg";"/images/products/52.jpg";"/images/products/53.jpg"
+6;1;"Солнечный день";280;"/images/products/61.jpg";"/images/products/62.jpg";"/images/products/63.jpg"
+7;1;"Романтическое свидание";310;"/images/products/71.jpg";"/images/products/72.jpg";"/images/products/73.jpg"
+8;2;"Триумф";580;"/images/products/81.jpg";"/images/products/82.jpg";"/images/products/83.jpg"
+9;2;"Бизнес Леди";410;"/images/products/91.jpg";"/images/products/92.jpg";"/images/products/93.jpg"
+10;2;"Вершина успеха";310;"/images/products/101.jpg";"/images/products/102.jpg";"/images/products/103.jpg"
+11;2;"Официальная встреча";290;"/images/products/111.jpg";"/images/products/112.jpg";"/images/products/113.jpg"
+12;2;"Гармония";380;"/images/products/121.jpg";"/images/products/122.jpg";"/images/products/123.jpg"
+13;2;"Солнечная долина";330;"/images/products/131.jpg";"/images/products/132.jpg";"/images/products/133.jpg"
+14;2;"Улыбка фортуны";290;"/images/products/141.jpg";"/images/products/142.jpg";"/images/products/143.jpg"
+15;3;"Туманный Лондон";280;"/images/products/151.jpg";"/images/products/152.jpg";"/images/products/153.jpg"
+16;3;"Марлен";190;"/images/products/161.jpg";"/images/products/162.jpg";"/images/products/163.jpg"
+17;3;"Солнечная Сицилия";310;"/images/products/171.jpg";"/images/products/172.jpg";"/images/products/173.jpg"
+18;3;"Огни большого города";350;"/images/products/181.jpg";"/images/products/182.jpg";"/images/products/183.jpg"
+19;3;"Белокурая Венера";350;"/images/products/191.jpg";"/images/products/192.jpg";"/images/products/193.jpg"
+20;3;"Аргентинское танго";480;"/images/products/201.jpg";"/images/products/202.jpg";"/images/products/203.jpg"
